@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  /* line-height: 90px; */
+  font-weight: 700;
+  font-style:italic;
+  background-color: rgb(99, 92, 92);
+  color:rgb(205, 205, 205);
+}
+
+/* #unique {
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: lightblue;
+  color: darkblue;
+}
+
+h1, h2, h3, h4, h5, h6, .highlight {
+  background-color: #68a5b3;
+  color: white;
+  padding: 50px;
+  margin: 30px;
+  border: 5px dashed black;
+}
+
+
+h2 {
+  background-color: red;
+  color: white;
+  padding: 50px;
+  margin: 30px;
+  border: 5px dashed black;
+}
+
+p {
+  font-size: 20px;
+  font-family: Consolas, monospace;
+}
+*/
+
+.highlight {
+  background-color: yellow;
+  color:darkorange
+}
+
+.card{
+  border: 2px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+.card > h2{
+  color: blue;
+  background-color: lightgray;
+}
+
+.card > div > h2{
+  color: green;
+}
+
+h2:hover{
+  color: orange;
+}
+
+.card.highlight{
+  border: 5px solid red;
+}
