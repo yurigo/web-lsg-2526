@@ -1,0 +1,59 @@
+h1{
+  color: red;
+  font-weight: bold;
+}
+body{
+  background-color: lightblue;
+  border: 2px solid black;
+  font-size: 30px;
+  /* background-image: url("https://placecats.com/neo_2/300/300");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; */
+}
+
+li{
+  border: 5px dashed salmon;
+  /* padding: 10px 20px;
+  /* padding: 10px 20px 30px 40px; */
+  /* padding: 10px;
+  padding-bottom: 30px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+
+  padding-block: 30px;
+  padding-inline: 20px;
+
+  padding-inline-start: 10px;
+  padding-inline-end: 40px;
+  padding-block-start: 5px;
+  padding-block-end: 50px; */
+  
+  font-size:40px;
+  padding: 1em 1.6em;
+
+  margin: 20px;
+}
+
+.cuadrado{
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  border: 3px solid yellowgreen;
+  outline: 30px solid rebeccapurple;
+  padding: 20px;
+  border-radius: 30px 0 30px 0;
+  box-shadow: 10px 30px 10px 10px black;
+ background-image: url("https://placecats.com/neo_2/300/300");
+ background-size: cover;
+ cursor:pointer;
+}
+
+a {
+  color: green;
+  text-decoration: none;
+  display: block;
+  background-color: red;
+  width:300px
+}
