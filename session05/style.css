@@ -1,0 +1,50 @@
+:root{
+  --height-header: 50px;
+  --height-footer: 30px;
+}
+
+
+header{
+  height: var(--height-header);
+}
+
+footer{
+  height: var(--height-footer);
+  background-color: lightgray;
+}
+
+main{
+  height: calc(100vh - var(--height-header) - var(--height-footer));
+  background-color: lightblue;
+}
+
+h2{
+  display: block;
+}
+
+section{
+  margin: 0 auto;
+  max-width: 800px;
+  border: 1px solid black;
+}
+
+section div.contenedor{
+  display:flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  /* gap: 10px 20px; */
+  row-gap: 70px;
+  column-gap: 20px;
+  justify-content: space-evenly
+}
+
+section div.contenedor > div{
+  border: 1px solid red;
+  height: 100px;
+  width: 100px;
+
+}
+
+section div.contenedor > div:nth-child(3){
+  order: -1;
+}
