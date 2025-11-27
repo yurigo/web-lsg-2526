@@ -1,0 +1,148 @@
+body {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  gap: 50px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: grid;
+  width: 500px;
+  margin: 0 auto;
+  gap: 1em;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "a a a"
+    "b c d"
+    "b e e";
+}
+
+.vaporeon-jolteon-y-flareon,
+.espeon-y-umbreon,
+.eevee,
+.sylveon,
+.leafeon-y-glaceon {
+  cursor: pointer;
+}
+
+.vaporeon-jolteon-y-flareon {
+  grid-area: a;
+  background: rgb(80, 149, 245);
+  background: linear-gradient(
+    90deg,
+    rgba(80, 149, 245, 0.2) 0%,
+    rgba(247, 211, 51, 0.2) 49%,
+    rgba(244, 77, 11, 0.2) 100%
+  );
+  border: 3px solid black;
+  box-shadow: 5px 5px 10px 0 gray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.vaporeon-jolteon-y-flareon:hover {
+  border-color: indianred;
+  box-shadow: 5px 5px 10px 0 MediumAquamarine;
+}
+
+.espeon-y-umbreon {
+  box-shadow: 5px 5px 10px 0 gray;
+  border: 3px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-area: b;
+  background: rgb(214, 101, 248);
+  background: linear-gradient(
+    180deg,
+    rgba(214, 101, 248, 0.2) 0%,
+    rgba(40, 40, 45, 0.2) 100%
+  );
+}
+
+.espeon-y-umbreon:hover {
+  border-color: MediumPurple;
+  box-shadow: 5px 5px 10px 0 LightGreen;
+}
+
+.eevee,
+body {
+  background: conic-gradient(
+    from 320deg at 50% 50%,
+    rgba(80, 149, 245, 0.2),
+    rgba(247, 211, 51, 0.2),
+    rgba(244, 77, 11, 0.2),
+    rgba(251, 54, 120, 0.2),
+    rgba(50, 206, 230, 0.2),
+    rgba(82, 233, 95, 0.2),
+    rgba(40, 40, 45, 0.2),
+    rgba(214, 101, 248, 0.2),
+    rgba(80, 149, 245, 0.2)
+  );
+}
+
+.eevee {
+  box-shadow: 5px 5px 10px 0 gray;
+  border: 3px solid black;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  grid-area: c;
+}
+
+.eevee:hover {
+  border-color: Sienna;
+  box-shadow: 5px 5px 10px 0 SteelBlue;
+}
+
+.sylveon {
+  box-shadow: 5px 5px 10px 0 gray;
+  border: 3px solid black;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  grid-area: d;
+  background: rgba(251, 54, 120, 0.2);
+}
+
+.sylveon:hover {
+  border-color: Orchid;
+  box-shadow: 5px 5px 10px 0 LightGreen;
+}
+
+.leafeon-y-glaceon {
+  box-shadow: 5px 5px 10px 0 gray;
+  border: 3px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  grid-area: e;
+  grid-column: 2 / -1;
+  background: rgb(82, 233, 95);
+  background: linear-gradient(
+    90deg,
+    rgba(82, 233, 95, 0.2) 0%,
+    rgba(50, 206, 230, 0.2) 100%
+  );
+}
+
+.leafeon-y-glaceon:hover {
+  border-color: Teal;
+  box-shadow: 5px 5px 10px 0 FireBrick;
+}
+
+h2 {
+  text-align: center;
+}
