@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  width: 100%;
+  z-index: 1;
+}
+
+main{
+  
+  padding-top: 300px;
+  position: relative;
+}
+
+section#popup{
+  top: 200px;
+  position: absolute;
+  background-color: lightblue;
+  padding: 1em;
+  margin-inline: 3em;
+}
+
+div#closeButton {
+  background-color: aqua;
+  border-radius: 50%;
+  
+  display: block;
+
+  
+  position: absolute;
+  top: -30px;
+  right: -30px;
+  /* right: 10px;
+  bottom: 10px; */
+  
+  padding: .5em;
+  /* margin: 10pc; */
+}
+
+section:not(#popup) > h2 {
+  position: sticky;
+  top: 70px;
+  left: 0;
+  background-color: white;
+}
