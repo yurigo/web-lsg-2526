@@ -1,0 +1,13 @@
+
+
+.pokedex {
+    background-color: salmon;
+}
+
+.pokemon {
+    background-color: red;
+}
+
+.pokemon.sugar {
+    background-color: cyan;
+}
